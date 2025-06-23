@@ -57,8 +57,6 @@ def assign_voices_to_users():
             if counter == len(assigned_voices) - 1:
                 counter = 0
 
-
-
 """
 Function to convert text to speech
 
@@ -72,7 +70,6 @@ def text_to_speech(text, text_user):
     engine.say(text)
     engine.runAndWait()
     
-
 """
 Function to handle the "on_ready" event which triggers when the bot connects to Discord
 """
